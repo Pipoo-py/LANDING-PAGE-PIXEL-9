@@ -1,0 +1,55 @@
+.main__faq-section{
+	padding: 16px;
+}
+
+.faq-title{
+	text-align: center;
+	padding: 12px 12px 32px 12px;
+}
+
+.questions-container{
+	max-width: 800px;
+	margin: auto;
+}
+
+.questions-container > label{
+	display: flex;
+	gap: 12px;
+	border-bottom: 1px solid #38e;
+	padding: 16px 0;
+	color: #38e;
+	align-items: center;
+	user-select: none;
+}
+
+.questions-container label h4{
+	color: #222;
+	font-size: 1.2rem;
+}
+
+.questions-container > label > input{
+	display: none;
+}
+
+.questions-answer{
+	padding: 16px;
+	text-align: justify;
+	display: none;
+}
+
+.questions-container > .first-label:has(input[type="checkbox"]:checked) ~ .questions-answer.first-answer{
+	display: block;
+}
+
+.questions-container > label:has(input[type="checkbox"]:checked) > span{
+	transform: rotateX(180deg);
+}
+
+.questions-container > .second-label:has(input[type="checkbox"]:checked) ~ .questions-answer.second-answer{
+	display: block;
+}
+
+.questions-container > .third-label:has(input[type="checkbox"]:checked) ~ .questions-answer.third-answer{
+	display: block;
+}
+

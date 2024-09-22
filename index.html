@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="./stylesheets/navbar.css">
+    <link rel="stylesheet" href="./stylesheets/header.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/features.css">
+    <link rel="stylesheet" href="./stylesheets/comparison.css">
+    <link rel="stylesheet" href="./stylesheets/declarations.css">
+    <link rel="stylesheet" href="./stylesheets/faq.css">
+    <link rel="stylesheet" href="./stylesheets/form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Pixel 9 - Landing Page</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <div class="nav__general-container">
+            <section class="nav__top-section">
+                <div class="nav__logo-container">
+                    <img src="./img/google-icon.webp" alt="Logo de Google">
+                </div>
+                <div class="nav__switch-theme-container">
+                    <span class="material-symbols-outlined" translate="no">dark_mode</span>
+                </div>
+            </section>
+            <div class="left-button-container">
+                <button id="leftScroll" class="material-symbols-outlined" translate="no">chevron_left</button>
+            </div>
+            <div class="right-button-container">
+                <button id="rightScroll" class="material-symbols-outlined" translate="no">chevron_right</button>
+            </div>
+            <ul class="nav__list">
+                <li class="list__item canSwitch">
+                    <a href="#introduction">Introducción</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#keyFeatures">Características</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#comparison">Variantes</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#video">Video Promocional</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#declarations">Testimonios</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#faq">Preguntas Frecuentes (FaQ)</a>
+                </li>
+                <li class="list__item canSwitch">
+                    <a href="#form">Suscripción</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <main class="main">
+        <div class="main__general-container">
+            <header class="header" id="introduction">
+                <h1>Descubre el Nuevo <strong>Google Pixel 9.</strong></h1>
+                <div class="header__imgs-container">
+                    <img src="./img/firstImgPixel.avif" alt="Google Pixel 9" id="pixelImg">
+                </div>
+                <div class="select-color-container">
+                    <div id="first-color-header"></div>
+                    <div id="second-color-header"></div> 
+                    <div id="third-color-header"></div>
+                </div>
+                <p class="canSwitch">
+                    El smartphone más avanzado de <strong>Google</strong> con cámaras profesionales, <strong>inteligencia artificial</strong> mejorada, y un diseño revolucionario. Ahora disponible en tres variantes para todos los estilos.
+                </p>
+            </header>
+            <section class="main__key-features-section" id="keyFeatures">
+                <h2 class="main__features-title"> La tecnología que cambiará tu forma de vivir.</h2>
+                <p> Potente, elegante, y diseñado para el futuro. Descubre lo que hace único al Pixel 9.</p>
+                <div class="main__features-grid-container">
+                    <div class="feature canSwitch">
+                        <h3>Cámara Triple con IA</h3>
+                        <span class="material-symbols-outlined" translate="no">
+                            photo_camera
+                        </span>
+                        <p>
+                            Capta momentos con detalles perfectos en cualquier condición de luz.<br>
+                            <b>Toque para más información</b>
+                        </p>
+                        <div class="feature-extra-info-in-hover">
+                            <h3>Cámara Triple con IA</h3>
+                            <ul>
+                                <li><strong>Sistema de triple cámara:</strong> Cámara principal de 50 MP, ultra gran angular de 12 MP y teleobjetivo de 48 MP.</li>
+                                <li><strong>Mejoras con IA:</strong> Reconocimiento de escenas en tiempo real y ajuste automático de parámetros para fotos perfectas en cualquier condición de luz.</li>
+                                <li><strong>Modo Noche:</strong> Capta imágenes nítidas incluso en situaciones de muy poca luz, gracias al procesamiento de imágenes con IA.</li> 
+                                <li>
+                                    <strong>Grabación de video en 8K:</strong> Para videos súper detallados y suaves.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature canSwitch">
+                        <h3>Procesador Tensor G4</h3>
+                        <span class="material-symbols-outlined" translate="no">
+                            memory
+                        </span>
+                        <p>
+                            La velocidad que necesitas para el día a día y juegos intensos.<br>
+                            <b>Toque para más información</b>
+                        </p>
+                        <div class="feature-extra-info-in-hover">
+                            <h3>Procesador Tensor G4</h3>
+                            <ul>
+                               <li><strong>Rendimiento optimizado:</strong> Diseñado por Google para un rendimiento ultrarrápido en multitarea y aplicaciones intensivas.</li>
+                               <li><strong>Gráficos avanzados:</strong> Mejora el rendimiento en juegos y aplicaciones con gráficos exigentes.</li>
+                               <li><strong>IA mejorada:</strong> Acelera las funciones basadas en inteligencia artificial, como el reconocimiento de voz y las fotos computacionales.</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature canSwitch">
+                        <h3>Batería Inteligente</h3>
+                        <span class="material-symbols-outlined" translate="no">
+                            battery_full_alt
+                        </span>
+                        <p>
+                            Dura hasta 48 horas con el modo ahorro de energía adaptativo.<br>
+                            <b>Toque para más información</b>
+                        </p>
+                        <div class="feature-extra-info-in-hover">
+                            <h3>Batería inteligente</h3>
+                            <ul>
+                               <li><strong>Duración de hasta 48 horas:</strong> Con el modo de ahorro de energía extremo, se priorizan las apps esenciales para extender la duración.</li>
+                               <li><strong>Carga rápida e inalámbrica:</strong> Compatible con cargadores rápidos e inalámbricos, para una recarga en minutos.</li>
+                               <li><strong>Carga adapativa:</strong> Aprende tus hábitos de carga diaria para optimizar la salud de la batería a largo plazo.</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature canSwitch">
+                        <h3>Pantalla OLED 120Hz</h3>
+                        <span class="material-symbols-outlined" translate="no">
+                            smartphone
+                        </span>
+                        <p>
+                            Experiencia visual fluida y colores vibrantes.<br>
+                            <b>Toque para más información</b>
+                        </p>
+                        <div class="feature-extra-info-in-hover">
+                            <h3>Pantalla OLED 120Hz</h3>
+                            <ul>
+                               <li><strong>Tasa de refresco de 120Hz:</strong> Animaciones y desplazamientos ultra suaves para una experiencia más fluida en juegos y navegación.</li>
+                               <li><strong>Resolución QHD+:</strong> Resolución nítida con colores precisos y vibrantes, perfecta para ver videos en alta definición.</li>
+                               <li><strong>HDR10+:</strong> Colores más ricos y contrastes mejorados para una experiencia visual más inmersiva, tanto en fotos como en videos.</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__comparison-section" id="comparison">
+                    <h2> Elige el modelo que se ajusta a ti.</h2>
+                    <div class="comparison__title-container canSwitch">
+                        <img src="./img/triplePixels.avif">
+                    </div>
+                <div class="comparison__colors">
+                    <div class="comparison__color-pixel-pro">
+                        <strong>Pixel 9 Pro</strong>
+                        <div class="comparison__img-container canSwitch">
+                            <img src="./img/varietyColors/pixel9ProPorcelana.webp" alt="" id="pixelProImg">
+                        </div>
+                        <div class="comparison__change-container" id="comparison-pro">
+                            <div class="firstColor changeColor" id="Porcelana"></div>
+                            <div class="secondColor changeColor" id="Rosa_Cuarzo"></div>
+                            <div class="thirdColor changeColor" id="Verde_Liquen"></div>
+                            <div class="lastColor changeColor" id="Obsidiana"></div>
+                        </div>
+                        <span class="span-color-title">Color:</span><span class="span-color">Porcelana</span>
+                        <p>
+                            Panel trasero de vidrio mate y suave con marco metálico pulido
+                        </p>
+                    </div>
+                    <div class="comparison__color-pixel">
+                        <strong>Pixel 9</strong>
+                        <div class="comparison__img-container canSwitch">
+                            <img src="./img/varietyColors/pixel9Porcelana.webp" alt="" id="pixelBasicImg">
+                        </div>
+                        <div class="comparison__change-container" id="comparison-basic">
+                            <div class="firstColor changeColor" id="Porcelana"></div>
+                            <div class="secondColor changeColor" id="Rosa_Peonia"></div>
+                            <div class="thirdColor changeColor" id="Verde_Pastel"></div>
+                            <div class="lastColor changeColor" id="Obsidiana"></div>
+                        </div>
+                        <span class="span-color-title">Color:</span><span class="span-color">Porcelana</span>
+                        <p>
+                            Panel trasero de vidrio pulido con un marco metálico satinado
+                        </p>
+                    </div>
+                </div>
+                <div class="comparison-features-container" style="padding: 64px;">
+                    <div class="comparison-features-slider">
+                        <button class="material-symbols-outlined" id="comparisonLeft">chevron_left</button>
+                        <button class="material-symbols-outlined" id="comparisonRight">chevron_right</button>
+                        <span class="material-symbols-outlined" id="featureSpan">smartphone</span>
+                        <h3 class="comparison-feature-title" id="featureTitle">Pantalla</h3>
+                    </div>
+                    <div class="comparison-features-flex">
+                        <div class="comparison-features-pro">
+                            <div class="comparison__img-container canSwitch">
+                                <img src="./img/comparisonFeatures/proScreen.webp" alt="" id="featurePro">
+                            </div>
+                            <div class="comparison-pro-description">
+                                <strong>Super Actua de 6,3" o 6,8"</strong>
+                                <strong>Hasta 3000 nits</strong>
+                                <span>Brillo máximo</span>
+                            </div>
+                        </div>
+                         <div class="comparison-features-basic">
+                            <div class="comparison__img-container canSwitch">
+                                <img src="./img/comparisonFeatures/basicScreen.webp" alt="" id="featureBasic">
+                            </div>
+                            <div class="comparison-basic-description">
+                                <strong>Pantalla Actua de 6,3"</strong>
+                                <strong>Hasta 2700 nits</strong>
+                                <span>Brillo máximo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__video-section" style="margin-top: 64px" id="video">
+                <h2>Vive la experiencia del Pixel 9.</h2>
+                <div class="video-container">
+                    <video src="./video.mp4" autoplay="true" muted loop></video>
+                </div>
+            </section>
+            <section class="main__persons-section" id="declarations">
+                <h2>¿Qué dicen nuestros usuarios?</h2>
+                <p>
+                    Millones ya confían en el Google Pixel 9 para capturar sus momentos, mantenerse conectados, y disfrutar de un rendimiento sin precedentes.
+                </p>
+                <div class="main__persons-carousel">
+                    <div class="declaration">
+                        <div class="declaration-top-section">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+                            <span>Sarah Jhonson</span>
+                        </div>
+                        <p>
+                            "El Pixel 9 ha cambiado por completo la forma en que capturo mis recuerdos. La cámara es impresionante, y la duración de la batería es perfecta para mi estilo de vida agitado. ¡Lo recomiendo a todos!"
+                        </p>
+                    </div>
+                    <div class="declaration">
+                        <div class="declaration-top-section">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                            <span>Michael Smith</span>
+                        </div>
+                        <p>
+                            "Como gamer, el rendimiento del Pixel 9 es increíble. Puedo jugar sin retrasos y la pantalla es súper fluida. Definitivamente vale la pena la inversión."
+                        </p>
+                    </div>
+                    <div class="declaration">
+                        <div class="declaration-top-section">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+                            <span>Emily Davis</span>
+                        </div>
+                        <p>
+                            "Me encanta cómo el Pixel 9 se adapta a mi día a día. La cámara nocturna es increíble y la carga rápida es un salvavidas. ¡Definitivamente uno de los mejores teléfonos que he tenido!"
+                        </p>
+                    </div>
+                    <div class="declaration">
+                        <div class="declaration-top-section">
+                            <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="">
+                            <span>David Williams</span>
+                        </div>
+                        <p>
+                            "El Pixel 9 es un smartphone revolucionario. Su inteligencia artificial mejorada me ha ayudado a simplificar mi trabajo y su diseño es elegante y moderno."
+                        </p>
+                    </div>
+                    <div class="declaration">
+                        <div class="declaration-top-section">
+                            <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="">
+                            <span>Jessica</span>
+                        </div>
+                        <p>
+                            "El Pixel 9 Pro es perfecto para los que amamos la fotografía. Los detalles y la claridad de las fotos son sorprendentes, especialmente en condiciones de poca luz."
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="main__faq-section" id="faq">
+                <h2 class="faq-title">¿Tienes preguntas?</h2>
+                <div class="questions-container">
+                    <label for="first-question" class="first-label"><span class="material-symbols-outlined" translate="no">arrow_drop_down</span>
+                        <h4>¿Cuánto dura la batería del Google Pixel 9?</h4>
+                        <input type="checkbox" name="" id="first-question">
+                    </label>
+                    <div class="questions-answer first-answer">
+                        El <strong>Google Pixel 9</strong> cuenta con una batería inteligente que puede durar hasta 48 horas con el modo de ahorro de energía. En uso normal, te proporcionará un día completo de autonomía gracias a su optimización inteligente que ajusta el rendimiento según tu uso.
+                    </div>
+                    <label for="second-question" class="second-label"><span class="material-symbols-outlined" translate="no">arrow_drop_down</span>
+                        <h4>¿Es resistente al agua y al polvo?</h4>
+                        <input type="checkbox" name="" id="second-question">
+                    </label>
+                    <div class="questions-answer second-answer">
+                        Sí, el <strong>Google Pixel 9</strong> tiene una clasificación IP68, lo que significa que es resistente al agua y al polvo. Puedes sumergirlo en agua hasta 1.5 metros de profundidad durante un máximo de 30 minutos sin preocuparte por daños.
+                    </div>
+                    <label for="third-question" class="third-label"><span class="material-symbols-outlined" translate="no">arrow_drop_down</span>
+                        <h4>¿Cuál es la capacidad de almacenamiento disponible?</h4>
+                        <input type="checkbox" name="" id="third-question">
+                    </label>
+                    <div class="questions-answer third-answer">
+                        El <strong>Google Pixel 9</strong> viene en varias opciones de almacenamiento: 128GB, 256GB, y 512GB, lo que te permite elegir el modelo que mejor se adapte a tus necesidades de almacenamiento para aplicaciones, fotos y videos.
+                    </div>
+                </div>
+            </section>
+            <section class="main__form-section" id="form">
+                <h3>Recibe noticias y ofertas exclusivas</h3>
+                <p>
+                    Suscríbete para recibir información sobre el lanzamiento del Pixel 9 y otras ofertas.
+                </p>
+                <form action="" class="main__form">
+                    <div class="form__logo-container">
+                        <img src="./img/google-icon.webp" alt="Logo de Google">
+                    </div>
+                    <input type="text" name="" id="usernameInput" placeholder="Escriba su nombre" required>
+                    <input type="email" name="" id="emailInput" placeholder="Escriba su correo" required>
+                    <input type="submit" value="Suscribirse" id="submitButton" >
+                    <span id="result"></span>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__general-container">
+            <h4>Hecho por Alejandro Salazar</h4>
+            <p>
+                Esta página fue hecha con el objetivo de demostrar las habilidades que posee el desarrollador, las personas de declaraciones y todas las imágenes/videos que se muestran aquí pertenecen a <strong>Google</strong>.
+            </p>
+        </div>
+    </footer>
+    <script src="./scripts/switchTheme.js"></script>
+    <script src="./scripts/navbarScrollButtons.js"></script>
+    <script src="./scripts/switchHeaderImg.js"></script>
+    <script src="./scripts/comparisonChangeColors.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/formValidation.js"></script>
+</body>
+</html>

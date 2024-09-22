@@ -1,0 +1,38 @@
+.main__persons-section{
+	padding: 64px;
+}
+
+.main__persons-section h2,
+.main__persons-section p{
+	text-align: center;
+	padding: 16px;
+}
+
+.main__persons-carousel{
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+}
+
+.declaration{
+	min-width: 100%;
+	box-sizing: border-box;
+}
+
+.declaration p{
+	text-align: justify;
+}
+
+.declaration-top-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	border-bottom: 1px solid #222;
+	padding: 12px;
+}
+
+.declaration-top-section img{
+	width: 32px;
+	border-radius: 50%;
+}

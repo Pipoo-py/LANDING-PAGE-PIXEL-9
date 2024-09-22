@@ -1,0 +1,92 @@
+.nav__top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 16px;
+}
+
+
+.nav__logo-container{
+    width: 50px;
+}
+
+.nav__logo-container img{
+    width: 100%;
+}
+
+.nav__switch-theme-container{
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.nav__switch-theme-container:hover span{
+    color: #36e;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    width: auto;
+    padding: 8px 32px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+}
+
+.left-button-container,
+.right-button-container{
+    position: absolute; 
+    z-index: 10;
+    top: 10.9%;
+    z-index: 1000; 
+    background-color: #fffe;
+    box-shadow: 0 0 12px 12px #fffe;
+}
+
+.left-button-container button,
+.right-button-container button{
+    border: 1px solid #222;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 1.8rem;
+    position: relative;
+    box-shadow: 0 0 12px 0px #bbba;
+}
+
+.left-button-container {
+    left: 0; 
+}
+
+.right-button-container {
+    right: 0; 
+}
+
+
+.list__item{
+    list-style: none;
+    background-color: #f8f8f8;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-wrap: nowrap;
+    transition: background-color .3s;
+}
+
+.list__item:hover{
+    background-color: #e8e8e8;
+}
+
+.list__item a{
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    color: #222;
+}
+
+@media screen and (min-width: 1440px){
+    #leftScroll,
+    #rightScroll{
+        display: none;
+    }
+}

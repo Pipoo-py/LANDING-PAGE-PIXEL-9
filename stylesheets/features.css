@@ -1,0 +1,78 @@
+.main__features-title{
+	text-align: center;
+	padding: 18px;
+	color: #222;
+}
+
+.main__key-features-section{
+	margin-top: 25dvh;
+	height: 100dvh;
+	padding: 0 34px;
+}
+
+.main__key-features-section > p{
+	text-align: center;
+}
+
+.main__features-grid-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	gap: 16px;
+	margin-top: 16px;
+	place-content: center;
+}
+
+.feature{
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	padding: 24px;
+	text-align: center;
+	height: transition .3s;
+	position: relative;
+	overflow: hidden;
+}
+
+.feature span,
+.feature b{
+	color: #36e;
+}
+
+.feature-extra-info-in-hover{
+	display: none;
+}
+
+.feature-extra-info-in-hover ul li{
+	list-style: none;
+}
+
+.feature-extra-info-in-hover h3{
+	color: #36e;
+	padding: 12px;
+}
+
+.feature:hover > .feature-extra-info-in-hover{
+	animation: viewExtraInfo .3s both;
+	display: block;
+}
+
+.feature:hover > h3,
+.feature:hover span,
+.feature:hover p{
+	display: none;
+}
+
+
+
+@keyframes viewExtraInfo{
+	from{
+		transform: translateY(300px);
+	}
+
+	to{
+		transform: translateY(0);
+	}
+}
